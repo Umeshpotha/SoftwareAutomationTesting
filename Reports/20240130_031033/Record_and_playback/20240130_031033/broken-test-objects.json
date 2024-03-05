@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92",
+      "brokenLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#searchDropdownBox",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240130_031033/Record_and_playback/20240130_031033/Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92_CSS.png"
+    }
+  ]
+}

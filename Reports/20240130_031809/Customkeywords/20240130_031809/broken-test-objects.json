@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/inputcontinue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240130_031809/Customkeywords/20240130_031809/Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/inputcontinue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92",
+      "brokenLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240130_031809/Customkeywords/20240130_031809/Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92_position.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in",
+      "brokenLocator": "//span[@id\u003d\u0027nav-link-accountList-nav-line-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027nav-link-accountList-nav-line-1\u0027 and (text() \u003d \u0027Hello, sign in\u0027 or . \u003d \u0027Hello, sign in\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20240130_190455/DataDrivenTesting/20240130_190527/Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in_BASIC.png"
+    }
+  ]
+}

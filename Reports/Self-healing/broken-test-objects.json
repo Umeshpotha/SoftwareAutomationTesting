@@ -1,0 +1,84 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_loginOR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027Sign in\u0027 or . \u003d \u0027Sign in\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Quantity_Selections_OR/div_1",
+      "brokenLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[7]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputsignInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputsignInSubmit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92",
+      "brokenLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92",
+      "brokenLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#searchDropdownBox",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/inputcontinue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/inputcontinue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in",
+      "brokenLocator": "//span[@id\u003d\u0027nav-link-accountList-nav-line-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027nav-link-accountList-nav-line-1\u0027 and (text() \u003d \u0027Hello, sign in\u0027 or . \u003d \u0027Hello, sign in\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in_BASIC.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manualmode,Chrome 121.0.0.0,,,30-01-2024 20:27:13,30-01-2024 20:28:52,1m - 38.592s,PASSED
+,,,,,,,
+Test Cases/Manual mode/TC_Amazon_Change_Language,Chrome 121.0.0.0,,,30-01-2024 20:27:13,30-01-2024 20:28:52,1m - 38.396s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 20:27:13,30-01-2024 20:27:14,0.288s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 20:27:14,30-01-2024 20:27:14,0.105s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 20:27:14,30-01-2024 20:27:16,1.979s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 20:27:16,30-01-2024 20:28:03,46.845s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Change_Language_OR/a_EN""))",Chrome 121.0.0.0,,,30-01-2024 20:28:03,30-01-2024 20:28:46,43.178s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Change_Language_OR/i_a-icon a-icon-radio""))",Chrome 121.0.0.0,,,30-01-2024 20:28:46,30-01-2024 20:28:49,3.664s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Change_Language_OR/input_a-button-input""))",Chrome 121.0.0.0,,,30-01-2024 20:28:49,30-01-2024 20:28:51,1.771s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 20:28:51,30-01-2024 20:28:51,0.253s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 20:28:51,30-01-2024 20:28:51,0.112s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 20:28:51,30-01-2024 20:28:52,0.127s,ERROR

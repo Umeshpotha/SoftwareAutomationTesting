@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manualmode,Chrome 121.0.0.0,,,30-01-2024 20:33:14,30-01-2024 20:33:20,5.676s,FAILED
+,,,,,,,
+Test Cases/Manual mode/TC_Amazon_Change_Language,Chrome 121.0.0.0,,,30-01-2024 20:33:14,30-01-2024 20:33:20,5.330s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 20:33:14,30-01-2024 20:33:15,0.709s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 20:33:15,30-01-2024 20:33:15,0.197s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 20:33:15,30-01-2024 20:33:17,2.097s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 20:33:17,30-01-2024 20:33:19,1.743s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Change_Language_OR/a_EN""))",Chrome 121.0.0.0,,,30-01-2024 20:33:19,30-01-2024 20:33:19,0.209s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 20:33:19,30-01-2024 20:33:19,0.140s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 20:33:19,30-01-2024 20:33:20,0.122s,ERROR

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Record_and_playback,Chrome 121.0.0.0,,,31-01-2024 19:44:57,31-01-2024 19:45:28,31.656s,PASSED
+,,,,,,,
+Test Cases/Record_and Playback/TC_Amazon_Login_1,Chrome 121.0.0.0,,,31-01-2024 19:44:57,31-01-2024 19:45:04,7.015s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 19:44:57,31-01-2024 19:44:57,0.294s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 19:44:57,31-01-2024 19:44:57,0.095s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 19:44:57,31-01-2024 19:45:00,2.664s,PASSED
+"navigateToUrl(""https://www.amazon.in/-/hi/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fspr%2Freturns%2Fgift&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"")",Chrome 121.0.0.0,,,31-01-2024 19:45:00,31-01-2024 19:45:01,1.488s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/Page_Amazon Sign In/input_email""), ""umeshpotha123@gmail.com"")",Chrome 121.0.0.0,,,31-01-2024 19:45:01,31-01-2024 19:45:03,1.306s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Amazon_loginOR/Page_Amazon Sign In/input_password""), ""fBliQDetARxGLxPhZ5uj6iENFQNiKz0Y"")",Chrome 121.0.0.0,,,31-01-2024 19:45:03,31-01-2024 19:45:03,0.493s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/Page_Amazon Sign In/inputsignInSubmit""))",Chrome 121.0.0.0,,,31-01-2024 19:45:03,31-01-2024 19:45:04,0.399s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:04,0.127s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:04,0.038s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:04,0.048s,ERROR
+,,,,,,,
+Test Cases/Record_and Playback/TC_Amazon_Search_001,Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:28,24.481s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:04,0.014s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:04,0.035s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 19:45:04,31-01-2024 19:45:05,0.701s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 121.0.0.0,,,31-01-2024 19:45:05,31-01-2024 19:45:06,1.851s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,31-01-2024 19:45:06,31-01-2024 19:45:19,12.993s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 121.0.0.0,,,31-01-2024 19:45:19,31-01-2024 19:45:22,2.777s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 19:45:22,31-01-2024 19:45:27,4.842s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com  Da vinci code/span_Results""), 0)",Chrome 121.0.0.0,,,31-01-2024 19:45:27,31-01-2024 19:45:28,0.843s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 19:45:28,31-01-2024 19:45:28,0.258s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 19:45:28,31-01-2024 19:45:28,0.056s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 19:45:28,31-01-2024 19:45:28,0.056s,ERROR

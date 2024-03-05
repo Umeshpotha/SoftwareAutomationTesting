@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTesting,Chrome 121.0.0.0,,,30-01-2024 10:54:54,30-01-2024 11:05:37,10m - 43.331s,PASSED
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Login_1,Chrome 121.0.0.0,,,30-01-2024 10:54:54,30-01-2024 10:56:47,1m - 52.503s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 10:54:54,30-01-2024 10:54:55,0.374s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 10:54:55,30-01-2024 10:54:55,0.165s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 10:54:55,30-01-2024 10:54:56,1.305s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 10:54:56,30-01-2024 10:55:09,12.764s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,30-01-2024 10:55:09,30-01-2024 10:55:54,45.332s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_email""), email)",Chrome 121.0.0.0,,,30-01-2024 10:55:54,30-01-2024 10:56:01,6.929s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,30-01-2024 10:56:01,30-01-2024 10:56:06,4.970s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_password""), password)",Chrome 121.0.0.0,,,30-01-2024 10:56:06,30-01-2024 10:56:07,0.875s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,30-01-2024 10:56:07,30-01-2024 10:56:07,0.402s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/span_Your password is incorrect""), 0)",Chrome 121.0.0.0,,,30-01-2024 10:56:07,30-01-2024 10:56:46,38.815s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 10:56:46,30-01-2024 10:56:46,0.247s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 10:56:46,30-01-2024 10:56:47,0.074s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 10:56:47,30-01-2024 10:56:47,0.059s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Login_1,Chrome 121.0.0.0,,,30-01-2024 10:56:47,30-01-2024 10:58:22,1m - 35.267s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 10:56:47,30-01-2024 10:56:47,0.022s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 10:56:47,30-01-2024 10:56:47,0.057s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 10:56:47,30-01-2024 10:56:48,0.843s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 10:56:48,30-01-2024 10:57:25,37.189s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,30-01-2024 10:57:25,30-01-2024 10:57:39,14.507s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_email""), email)",Chrome 121.0.0.0,,,30-01-2024 10:57:39,30-01-2024 10:57:40,0.924s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,30-01-2024 10:57:40,30-01-2024 10:57:46,5.784s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_password""), password)",Chrome 121.0.0.0,,,30-01-2024 10:57:46,30-01-2024 10:57:47,0.882s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,30-01-2024 10:57:47,30-01-2024 10:57:47,0.381s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/span_Your password is incorrect""), 0)",Chrome 121.0.0.0,,,30-01-2024 10:57:47,30-01-2024 10:58:22,34.360s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 10:58:22,30-01-2024 10:58:22,0.235s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 10:58:22,30-01-2024 10:58:22,0.028s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 10:58:22,30-01-2024 10:58:22,0.023s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Login_1,Chrome 121.0.0.0,,,30-01-2024 11:01:01,30-01-2024 11:03:25,2m - 23.389s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:01:01,30-01-2024 11:01:27,25.537s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:01:27,30-01-2024 11:01:47,19.813s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 11:01:47,30-01-2024 11:01:48,1.071s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 11:01:48,30-01-2024 11:01:51,3.119s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,30-01-2024 11:01:51,30-01-2024 11:02:39,48.081s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_email""), email)",Chrome 121.0.0.0,,,30-01-2024 11:02:39,30-01-2024 11:02:40,0.929s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,30-01-2024 11:02:40,30-01-2024 11:03:00,20.552s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_password""), password)",Chrome 121.0.0.0,,,30-01-2024 11:03:00,30-01-2024 11:03:01,0.807s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,30-01-2024 11:03:01,30-01-2024 11:03:02,0.365s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/span_Your password is incorrect""), 0)",Chrome 121.0.0.0,,,30-01-2024 11:03:02,30-01-2024 11:03:24,22.538s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 11:03:24,30-01-2024 11:03:25,0.437s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:03:25,30-01-2024 11:03:25,0.053s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:03:25,30-01-2024 11:03:25,0.052s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Login_1,Chrome 121.0.0.0,,,30-01-2024 11:03:25,30-01-2024 11:04:00,35.607s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:03:25,30-01-2024 11:03:25,0.011s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:03:25,30-01-2024 11:03:25,0.052s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 11:03:25,30-01-2024 11:03:26,0.749s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 11:03:26,30-01-2024 11:03:29,3.082s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,30-01-2024 11:03:29,30-01-2024 11:03:32,3.542s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_email""), email)",Chrome 121.0.0.0,,,30-01-2024 11:03:32,30-01-2024 11:03:34,1.571s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,30-01-2024 11:03:34,30-01-2024 11:03:36,1.846s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/input_password""), password)",Chrome 121.0.0.0,,,30-01-2024 11:03:36,30-01-2024 11:03:37,1.579s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,30-01-2024 11:03:37,30-01-2024 11:03:38,0.362s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC_Amazon_loginOR/TC_Amazon_Login_DDT/Page_Amazon Sign-In/span_Your password is incorrect""), 0)",Chrome 121.0.0.0,,,30-01-2024 11:03:38,30-01-2024 11:04:00,22.510s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 11:04:00,30-01-2024 11:04:00,0.223s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:00,30-01-2024 11:04:00,0.029s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:00,30-01-2024 11:04:00,0.023s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Search_001,Chrome 121.0.0.0,,,30-01-2024 11:04:00,30-01-2024 11:04:20,20.020s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:00,30-01-2024 11:04:00,0.008s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:00,30-01-2024 11:04:00,0.029s,ERROR
+com.qa.test.launchAmazon.LaunchAmazon(),Chrome 121.0.0.0,,,30-01-2024 11:04:01,30-01-2024 11:04:02,1.196s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), categories, true)",Chrome 121.0.0.0,,,30-01-2024 11:04:02,30-01-2024 11:04:10,8.089s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,30-01-2024 11:04:10,30-01-2024 11:04:10,0.664s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,30-01-2024 11:04:10,30-01-2024 11:04:18,7.312s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com  Da vinci code/span_Results""), 0)",Chrome 121.0.0.0,,,30-01-2024 11:04:18,30-01-2024 11:04:20,2.365s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 11:04:20,30-01-2024 11:04:20,0.214s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:20,30-01-2024 11:04:20,0.027s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:20,30-01-2024 11:04:20,0.025s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Search_001,Chrome 121.0.0.0,,,30-01-2024 11:04:20,30-01-2024 11:04:42,21.950s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:20,30-01-2024 11:04:20,0.011s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:20,30-01-2024 11:04:20,0.037s,ERROR
+com.qa.test.launchAmazon.LaunchAmazon(),Chrome 121.0.0.0,,,30-01-2024 11:04:21,30-01-2024 11:04:22,1.529s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), categories, true)",Chrome 121.0.0.0,,,30-01-2024 11:04:22,30-01-2024 11:04:31,9.467s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,30-01-2024 11:04:31,30-01-2024 11:04:33,1.340s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,30-01-2024 11:04:33,30-01-2024 11:04:40,7.289s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com  Da vinci code/span_Results""), 0)",Chrome 121.0.0.0,,,30-01-2024 11:04:40,30-01-2024 11:04:42,1.975s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:04:42,0.227s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:04:42,0.034s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:04:42,0.029s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Search_001,Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:05:08,25.761s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:04:42,0.006s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:04:42,0.024s,ERROR
+com.qa.test.launchAmazon.LaunchAmazon(),Chrome 121.0.0.0,,,30-01-2024 11:04:42,30-01-2024 11:04:48,5.506s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), categories, true)",Chrome 121.0.0.0,,,30-01-2024 11:04:48,30-01-2024 11:04:52,4.097s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,30-01-2024 11:04:52,30-01-2024 11:04:53,1.281s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,30-01-2024 11:04:53,30-01-2024 11:05:04,10.703s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com  Da vinci code/span_Results""), 0)",Chrome 121.0.0.0,,,30-01-2024 11:05:04,30-01-2024 11:05:08,3.832s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:08,0.248s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:08,0.027s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:08,0.023s,ERROR
+,,,,,,,
+Test Cases/DataDriven Testing/TC_Amazon_Search_001,Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:37,28.984s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:08,0.006s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:08,0.021s,ERROR
+com.qa.test.launchAmazon.LaunchAmazon(),Chrome 121.0.0.0,,,30-01-2024 11:05:08,30-01-2024 11:05:17,8.358s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), categories, true)",Chrome 121.0.0.0,,,30-01-2024 11:05:17,30-01-2024 11:05:24,7.540s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), item)",Chrome 121.0.0.0,,,30-01-2024 11:05:24,30-01-2024 11:05:25,1.318s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,30-01-2024 11:05:25,30-01-2024 11:05:34,8.265s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Amazon_Search__001_OR/Page_Amazon.com  Da vinci code/span_Results""), 0)",Chrome 121.0.0.0,,,30-01-2024 11:05:34,30-01-2024 11:05:37,3.187s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 11:05:37,30-01-2024 11:05:37,0.237s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:05:37,30-01-2024 11:05:37,0.021s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:05:37,30-01-2024 11:05:37,0.018s,ERROR

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Login_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a489480-3c4a-4edb-9931-fea4ebcc747e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5250a889-a428-40c0-a730-1f0a6e9f0745</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC_Amazon_Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5250a889-a428-40c0-a730-1f0a6e9f0745</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>a1c0e4d8-281a-44fe-bf3e-55227a272090</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5250a889-a428-40c0-a730-1f0a6e9f0745</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>d04da01f-3aa5-4e37-a0ec-5bd9353f50bf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('TC_Amazon_Login')</defaultValue>
+      <description></description>
+      <id>a1c0e4d8-281a-44fe-bf3e-55227a272090</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TC_Amazon_Login').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d04da01f-3aa5-4e37-a0ec-5bd9353f50bf</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/inputcontinue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240130_105419/DataDrivenTesting/20240130_105419/Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/inputcontinue_position.png"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenTesting</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>fd3a239a-9a60-400f-9fb7-45e25e8a02b2</testSuiteGuid>
+   <testCaseLink>
+      <guid>60338a55-4e61-49eb-bf05-f742ffc79691</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven Testing/TC_Amazon_Login_1</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a1c0e4d8-281a-44fe-bf3e-55227a272090</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d04da01f-3aa5-4e37-a0ec-5bd9353f50bf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71db1081-3a64-4b7f-be80-510ed4cbfcef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven Testing/TC_Amazon_Search_001</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a45f27fe-de2f-4af9-a92b-2724f01fef4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>231ff2d1-d70a-4b9d-8512-c80e73e867d0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestListener_quantity_Updation,Chrome 121.0.0.0,,,30-01-2024 01:33:23,30-01-2024 01:34:18,55.818s,PASSED
+,,,,,,,
+Test Cases/TestListeners/TC_AMAZON_Quantity Selection_001,Chrome 121.0.0.0,,,30-01-2024 01:33:29,30-01-2024 01:34:18,49.698s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 01:33:29,30-01-2024 01:33:39,10.429s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com  Airpods/span_Wireless Earbuds Bluetooth Headphones _3cbf24""))",Chrome 121.0.0.0,,,30-01-2024 01:33:39,30-01-2024 01:34:07,28.058s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_Quantity1""))",Chrome 121.0.0.0,,,30-01-2024 01:34:07,30-01-2024 01:34:17,9.389s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/a_2""))",Chrome 121.0.0.0,,,30-01-2024 01:34:17,30-01-2024 01:34:17,0.562s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 01:34:17,30-01-2024 01:34:18,1.158s,PASSED

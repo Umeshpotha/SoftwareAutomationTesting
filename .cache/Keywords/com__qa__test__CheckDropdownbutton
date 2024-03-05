@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C9F46C201D828BAE3A54171CD622706E",
+  "keywordClasses": [
+    {
+      "name": "com.qa.test.CheckDropdownbutton",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

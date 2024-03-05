@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ScriptingMode,Chrome 121.0.0.0,,,30-01-2024 03:14:40,30-01-2024 03:17:09,2m - 29.131s,PASSED
+,,,,,,,
+Test Cases/Scripting_Mode/TC_Amazon_Quantity_select,Chrome 121.0.0.0,,,30-01-2024 03:14:40,30-01-2024 03:17:09,2m - 28.966s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 03:14:40,30-01-2024 03:14:40,0.351s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 03:14:40,30-01-2024 03:14:41,0.139s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 03:14:41,30-01-2024 03:14:42,1.544s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,30-01-2024 03:14:42,30-01-2024 03:14:46,3.643s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,30-01-2024 03:14:46,30-01-2024 03:15:04,18.252s,PASSED
+"setText(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Airpods"")",Chrome 121.0.0.0,,,30-01-2024 03:15:04,30-01-2024 03:15:21,16.615s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,30-01-2024 03:15:21,30-01-2024 03:15:32,11.334s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com  Airpods/span_Wireless Earbuds Bluetooth Headphones _3cbf24""))",Chrome 121.0.0.0,,,30-01-2024 03:15:32,30-01-2024 03:17:03,1m - 31.381s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_Quantity1""))",Chrome 121.0.0.0,,,30-01-2024 03:17:03,30-01-2024 03:17:04,1.094s,PASSED
+"click(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/a_2""))",Chrome 121.0.0.0,,,30-01-2024 03:17:04,30-01-2024 03:17:05,0.637s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_2""), 0)",Chrome 121.0.0.0,,,30-01-2024 03:17:05,30-01-2024 03:17:09,3.524s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 03:17:09,30-01-2024 03:17:09,0.242s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 03:17:09,30-01-2024 03:17:09,0.072s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 03:17:09,30-01-2024 03:17:09,0.044s,ERROR

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_New_Registration_TestListener_TS,Chrome 121.0.0.0,,,30-01-2024 02:01:25,30-01-2024 02:02:30,1m - 4.970s,PASSED
+,,,,,,,
+Test Cases/TestListeners/TC_Amazon_Registration,Chrome 121.0.0.0,,,30-01-2024 02:01:27,30-01-2024 02:02:30,1m - 3.054s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 02:01:27,30-01-2024 02:01:49,22.330s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 02:01:49,30-01-2024 02:02:25,35.752s,ERROR
+"setText(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/input_customerName""), ""Ramesh"")",Chrome 121.0.0.0,,,30-01-2024 02:02:25,30-01-2024 02:02:26,0.714s,PASSED
+"setText(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/input_email""), ""malgudirknarayan@gmail.com"")",Chrome 121.0.0.0,,,30-01-2024 02:02:26,30-01-2024 02:02:27,0.974s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/input_password""), ""/0ocgQgQdNZ3tMKGKS1msw=="")",Chrome 121.0.0.0,,,30-01-2024 02:02:27,30-01-2024 02:02:27,0.524s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/input_passwordCheck""), ""CViXCpH3cxY="")",Chrome 121.0.0.0,,,30-01-2024 02:02:27,30-01-2024 02:02:28,0.628s,PASSED
+"click(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/div_Create account                         _400368""))",Chrome 121.0.0.0,,,30-01-2024 02:02:28,30-01-2024 02:02:28,0.588s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/input_password""), ""ON+pKYRW4vhGMfrCBaC/GQ=="")",Chrome 121.0.0.0,,,30-01-2024 02:02:28,30-01-2024 02:02:29,0.475s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonRegistrationTestListeners/Page_Amazon Registration/input_passwordCheck""), ""ON+pKYRW4vhGMfrCBaC/GQ=="")",Chrome 121.0.0.0,,,30-01-2024 02:02:29,30-01-2024 02:02:30,0.628s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,30-01-2024 02:02:30,30-01-2024 02:02:30,0.240s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 02:02:30,30-01-2024 02:02:30,0.073s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 02:02:30,30-01-2024 02:02:30,0.060s,ERROR

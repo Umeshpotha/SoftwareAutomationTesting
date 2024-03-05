@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestListener_quantity_Updation" time="55.818" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestListener_quantity_Updation" tests="1" failures="0" errors="0" time="55.818" skipped="0" timestamp="30-01-2024T01:33:23" hostname="Umesh Potha - UMESH" id="Test Suites/Amazon_TestSuite/Amazon_TestListener_quantity_Updation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Amazon_Test_Automation_SB\\Reports\\20240130_013312\\Amazon_TestSuite\\Amazon_TestListener_quantity_Updation\\20240130_013312"/>
+         <property name="logFiles" value="D:\\Amazon_Test_Automation_SB\\Reports\\20240130_013312\\Amazon_TestSuite\\Amazon_TestListener_quantity_Updation\\20240130_013312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Umesh Potha - UMESH"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.200.190"/>
+         <property name="sessionId" value="bdf321ddd5be83eb4884cfba44f1e766"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TestListeners/TC_AMAZON_Quantity Selection_001" time="49.698" classname="Test Cases/TestListeners/TC_AMAZON_Quantity Selection_001" status="PASSED">
+         <system-out><![CDATA[30-01-2024T01:33:29 - [TEST_CASE][PASSED] - Test Cases/TestListeners/TC_AMAZON_Quantity Selection_001: Test Cases/TestListeners/TC_AMAZON_Quantity Selection_001
+
+30-01-2024T01:33:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+30-01-2024T01:33:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=electronics-intl-ship", true): All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+30-01-2024T01:33:33 - [MESSAGE][PASSED] - All options with value 'search-alias=electronics-intl-ship' are selected in object 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+30-01-2024T01:33:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Airpods"): Text 'Airpods' is set on object 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+30-01-2024T01:33:35 - [MESSAGE][PASSED] - Text 'Airpods' is set on object 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+30-01-2024T01:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+30-01-2024T01:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+30-01-2024T01:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com  Airpods/span_Wireless Earbuds Bluetooth Headphones _3cbf24")): Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com  Airpods/span_Wireless Earbuds Bluetooth Headphones _3cbf24' is clicked on
+
+30-01-2024T01:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com  Airpods/span_Wireless Earbuds Bluetooth Headphones _3cbf24' is clicked on
+
+30-01-2024T01:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_Quantity1")): Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_Quantity1' is clicked on
+
+30-01-2024T01:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_Quantity1' is clicked on
+
+30-01-2024T01:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/a_2")): Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/a_2' is clicked on
+
+30-01-2024T01:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/a_2' is clicked on
+
+30-01-2024T01:34:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_2' is present
+
+30-01-2024T01:34:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_2"), 0): Object 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_2' is present
+
+30-01-2024T01:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-01-2024T01:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/TC_amazon_cart/Page_Amazon.com Wireless Earbuds Bluetooth _958d9f/span_2' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2024T01:33:23 - [TEST_SUITE][PASSED] - Amazon_TestListener_quantity_Updation: Test Cases/TestListeners/TC_AMAZON_Quantity Selection_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "6523E59CD5759B8E2E5F674B81B20C36",
+  "keywordClasses": [
+    {
+      "name": "com.qa.test.customFunctions",
+      "keywordMethods": [
+        {
+          "name": "LaunchAmazon",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
